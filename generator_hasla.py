@@ -3,6 +3,8 @@ import random
 
 password = []
 
+################################################################    Functions
+
 def show_left_chars():
     print("Pozostało wolnych znaków: ",character_left)
 
@@ -12,6 +14,7 @@ def character_input(character):
         character = int(input("Spróbuj jeszcze raz! Ile ma byc duzych liter? "))
     character_left -= character
 
+################################################################
 
 password_lenght = int(input("Jak długie ma być hasło? "))
 while password_lenght<=5:
